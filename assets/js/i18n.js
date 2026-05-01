@@ -1,8 +1,8 @@
-// SISSI i18n — EN / ES / AR only
+// Storefront i18n — EN / ES / AR only
 const translations = {
   en: {
     // Announcement
-    announcement: 'FREE SHIPPING ON ALL ORDERS OVER $50 | USE CODE: SISSI10',
+    announcement: 'FREE SHIPPING ON ALL ORDERS OVER $50 | USE CODE: WELCOME10',
     // Nav
     nav_new: 'NEW ARRIVALS',
     nav_shoes: 'SHOES',
@@ -12,7 +12,7 @@ const translations = {
     nav_contact: 'CONTACT',
     // Dropdown - Shoes
     dropdown_by_style: 'BY STYLE',
-    dropdown_ballet_flats: 'Ballet Flats',
+    dropdown_ballet_flats: 'Footwear',
     dropdown_heels: 'Heels',
     dropdown_sandals: 'Sandals',
     dropdown_boots: 'Boots',
@@ -31,15 +31,15 @@ const translations = {
     dropdown_featured_text: 'Explore Our Bestsellers',
     // Dropdown - Collections
     dropdown_curated: 'CURATED COLLECTIONS',
-    dropdown_ballet_collection: 'The Ultra-Soft Ballet Flats',
+    dropdown_ballet_collection: 'The Premium Footwear',
     dropdown_spring_summer: 'Spring / Summer 2026',
     dropdown_evening_elegance: 'Evening Elegance',
     dropdown_everyday: 'Everyday Essentials',
     dropdown_signature: 'SIGNATURE LINES',
     dropdown_artisan: 'Artisan Series',
     dropdown_travel: 'Travel Collection',
-    dropdown_luxe: 'SISSI Luxe',
-    dropdown_new_collection: 'New: Ballet Flats Collection',
+    dropdown_luxe: 'Storefront Luxe',
+    dropdown_new_collection: 'New: Footwear Collection',
     // Search
     search_placeholder: 'Search products...',
     search_popular: 'POPULAR SEARCHES',
@@ -56,18 +56,18 @@ const translations = {
     cart_continue: 'CONTINUE SHOPPING',
     // Hero
     hero_subtitle: 'ARTISAN CRAFTED',
-    hero_title: 'SISSI Luxe Styles',
+    hero_title: 'Storefront Luxe Styles',
     // Breadcrumb
     breadcrumb_home: 'Home',
-    breadcrumb_collection: 'The Ultra-Soft Ballet Flats Collection',
+    breadcrumb_collection: 'The Premium Footwear Collection',
     // Collection
     collection_title: 'ARTISANAL HANDCRAFTED FOOTWEAR',
-    collection_desc: 'Step into sophistication with SISSI\'s Ultra-Soft Ballet Flats Collection. Each pair is meticulously handcrafted by skilled artisans, combining timeless European elegance with modern comfort. Our ballet flats feature premium leather, cushioned insoles, and exquisite detailing — from sparkling rhinestones to hand-set gemstones. Designed for the woman who refuses to compromise on style or comfort, these versatile flats transition effortlessly from morning meetings to evening soirées. Experience the art of fine footwear with SISSI.',
+    collection_desc: 'Step into sophistication with Storefront\'s Premium Footwear Collection. Each pair is meticulously handcrafted by skilled artisans, combining timeless European elegance with modern comfort. Our footwear feature premium leather, cushioned insoles, and exquisite detailing — from sparkling rhinestones to hand-set gemstones. Designed for the woman who refuses to compromise on style or comfort, these versatile flats transition effortlessly from morning meetings to evening soirées. Experience the art of fine footwear with Storefront.',
     // Sidebar
     filter_title: 'FILTER',
     filter_category: 'Category',
     filter_all: 'All',
-    filter_ballet: 'Ballet Flats',
+    filter_ballet: 'Footwear',
     filter_maryjane: 'Mary Jane',
     filter_metallic: 'Metallic',
     filter_color: 'Color',
@@ -85,8 +85,8 @@ const translations = {
     // Product card
     quick_view: 'Quick View',
     // Brand CTA
-    cta_title: 'EXPERIENCE SISSI',
-    cta_desc: 'Discover our full range of handcrafted ballet flats. Sign up for exclusive early access to new collections and special offers.',
+    cta_title: 'EXPERIENCE Storefront',
+    cta_desc: 'Discover our full range of handcrafted footwear. Sign up for exclusive early access to new collections and special offers.',
     cta_subscribe: 'SUBSCRIBE',
     // Product detail
     detail_size: 'Size (EU)',
@@ -108,7 +108,7 @@ const translations = {
     footer_contact_us: 'Contact Us',
   },
   es: {
-    announcement: 'ENVÍO GRATIS EN PEDIDOS SUPERIORES A $50 | CÓDIGO: SISSI10',
+    announcement: 'ENVÍO GRATIS EN PEDIDOS SUPERIORES A $50 | CÓDIGO: WELCOME10',
     nav_new: 'NOVEDADES',
     nav_shoes: 'ZAPATOS',
     nav_collections: 'COLECCIONES',
@@ -141,7 +141,7 @@ const translations = {
     dropdown_signature: 'LÍNEAS EXCLUSIVAS',
     dropdown_artisan: 'Serie Artesanal',
     dropdown_travel: 'Colección Viaje',
-    dropdown_luxe: 'SISSI Luxe',
+    dropdown_luxe: 'Storefront Luxe',
     dropdown_new_collection: 'Nueva: Colección Bailarinas',
     search_placeholder: 'Buscar productos...',
     search_popular: 'BÚSQUEDAS POPULARES',
@@ -155,11 +155,11 @@ const translations = {
     cart_empty: 'Tu bolsa está vacía',
     cart_continue: 'SEGUIR COMPRANDO',
     hero_subtitle: 'ARTESANAL',
-    hero_title: 'Estilos Lujosos SISSI',
+    hero_title: 'Estilos Lujosos Storefront',
     breadcrumb_home: 'Inicio',
     breadcrumb_collection: 'Colección de Bailarinas Ultra Suaves',
     collection_title: 'CALZADO ARTESANAL HECHO A MANO',
-    collection_desc: 'Descubre la sofisticación con la Colección de Bailarinas Ultra Suaves de SISSI. Cada par es meticulosamente elaborado a mano por artesanos expertos, combinando la elegancia europea atemporal con la comodidad moderna. Nuestras bailarinas cuentan con cuero premium, plantillas acolchadas y detalles exquisitos — desde cristales brillantes hasta gemas engastadas a mano. Diseñadas para la mujer que no compromete estilo ni comodidad.',
+    collection_desc: 'Descubre la sofisticación con la Colección de Bailarinas Ultra Suaves de Storefront. Cada par es meticulosamente elaborado a mano por artesanos expertos, combinando la elegancia europea atemporal con la comodidad moderna. Nuestras bailarinas cuentan con cuero premium, plantillas acolchadas y detalles exquisitos — desde cristales brillantes hasta gemas engastadas a mano. Diseñadas para la mujer que no compromete estilo ni comodidad.',
     filter_title: 'FILTRAR',
     filter_category: 'Categoría',
     filter_all: 'Todos',
@@ -178,7 +178,7 @@ const translations = {
     sort_price_high: 'Precio: mayor a menor',
     sort_newest: 'Más recientes',
     quick_view: 'Vista rápida',
-    cta_title: 'DESCUBRE SISSI',
+    cta_title: 'DESCUBRE Storefront',
     cta_desc: 'Descubre nuestra gama completa de bailarinas artesanales. Regístrate para acceso exclusivo a nuevas colecciones y ofertas especiales.',
     cta_subscribe: 'SUSCRIBIRSE',
     detail_size: 'Talla (EU)',
@@ -199,7 +199,7 @@ const translations = {
     footer_contact_us: 'Contáctenos',
   },
   ar: {
-    announcement: 'شحن مجاني على جميع الطلبات فوق 50$ | استخدم الرمز: SISSI10',
+    announcement: 'شحن مجاني على جميع الطلبات فوق 50$ | استخدم الرمز: WELCOME10',
     nav_new: 'وصل حديثاً',
     nav_shoes: 'أحذية',
     nav_collections: 'المجموعات',

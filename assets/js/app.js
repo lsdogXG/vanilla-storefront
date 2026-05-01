@@ -1,10 +1,10 @@
-// SISSI — Main Application JS
+// Storefront — Main Application JS
 // Product data from CSV (flat-shoes only) with Gemini-generated SEO names
 
 const products = [
   {
     id: 'flat-shoes-x823806y',
-    name: 'Luxury Quilted Black Leather Ballet Flats with Patent Cap Toe',
+    name: 'Luxury Quilted Black Leather Footwear with Patent Cap Toe',
     nameEs: 'Bailarinas Negras Acolchadas de Cuero con Punta de Charol',
     nameAr: 'حذاء باليه أسود مبطن من الجلد بمقدمة لامعة',
     price: 79,
@@ -18,7 +18,7 @@ const products = [
       'https://r2.shopwis.cn/product/1512/image/2025/12/24/89474f14bbeeb0e5a11926da4803a050.webp',
       'https://r2.shopwis.cn/product/1512/image/2025/12/24/0662c65753a21f2a85a925efe9bed28f.webp'
     ],
-    description: 'Exquisite black ballet flats adorned with all-over rhinestone embellishments and elegant criss-cross Mary Jane straps. The sparkling crystal surface catches light beautifully, making these flats perfect for special occasions while maintaining ultimate comfort. Features a cushioned insole and adjustable buckle closure.',
+    description: 'Exquisite black footwear adorned with all-over rhinestone embellishments and elegant criss-cross Mary Jane straps. The sparkling crystal surface catches light beautifully, making these flats perfect for special occasions while maintaining ultimate comfort. Features a cushioned insole and adjustable buckle closure.',
     descriptionEs: 'Exquisitas bailarinas negras adornadas con incrustaciones de cristal y elegantes correas cruzadas estilo Mary Jane. Plantilla acolchada y cierre con hebilla ajustable.',
     descriptionAr: 'حذاء باليه أسود رائع مزين بأحجار الراين وأحزمة متقاطعة أنيقة. يتميز بنعل داخلي مبطن وإبزيم قابل للتعديل.',
     colors: ['#1a1a1a', '#8B6F47'],
@@ -40,7 +40,7 @@ const products = [
       'https://r2.shopwis.cn/product/1512/image/2025/12/24/295be393ba0a419fb0d807d01bccc5c6.webp',
       'https://r2.shopwis.cn/product/1512/image/2025/12/24/403f8a6f5f301c2cd482da1760805d2d.webp'
     ],
-    description: 'Stunning camel leather ballet flats featuring a jeweled Mary Jane strap with turquoise, jade, and garnet cabochon stones set in gold-tone bezels. A bohemian-chic meets classic elegance design that transitions effortlessly from day to evening.',
+    description: 'Stunning camel leather footwear featuring a jeweled Mary Jane strap with turquoise, jade, and garnet cabochon stones set in gold-tone bezels. A bohemian-chic meets classic elegance design that transitions effortlessly from day to evening.',
     descriptionEs: 'Impresionantes bailarinas de cuero camel con una correa Mary Jane enjoyada con piedras de turquesa, jade y granate engastadas en biseles dorados.',
     descriptionAr: 'حذاء باليه من الجلد الجملي مع حزام ماري جين مرصع بأحجار الفيروز واليشم والعقيق في إطار ذهبي.',
     colors: ['#C4956A', '#1a1a1a'],
@@ -48,7 +48,7 @@ const products = [
   },
   {
     id: 'flat-shoes-7pv429io',
-    name: 'Shimmering Champagne Gold Metallic Ballet Flats',
+    name: 'Shimmering Champagne Gold Metallic Footwear',
     nameEs: 'Bailarinas Metálicas Doradas Champán Brillantes',
     nameAr: 'حذاء باليه ذهبي معدني لامع بلون الشمبانيا',
     price: 59,
@@ -62,7 +62,7 @@ const products = [
       'https://r2.shopwis.cn/product/1512/image/2025/12/24/2887b384fd30e0ce660e4a624d3e0ea7.webp',
       'https://r2.shopwis.cn/product/1512/image/2025/12/24/72c955ec0e3b4b158478ff80104c8442.webp'
     ],
-    description: 'Classic champagne gold metallic ballet flats featuring a charming rhinestone-encrusted bow detail with polished gold aglets. The luminous metallic finish adds glamour to any outfit while the cushioned insole ensures all-day comfort.',
+    description: 'Classic champagne gold metallic footwear featuring a charming rhinestone-encrusted bow detail with polished gold aglets. The luminous metallic finish adds glamour to any outfit while the cushioned insole ensures all-day comfort.',
     descriptionEs: 'Bailarinas metálicas doradas clásicas con un encantador lazo incrustado de cristales. El acabado metálico luminoso añade un toque de glamour a cualquier atuendo.',
     descriptionAr: 'حذاء باليه ذهبي معدني كلاسيكي مع تفاصيل قوس مرصع بأحجار الراين. اللمسة المعدنية اللامعة تضيف أناقة لأي إطلالة.',
     colors: ['#D4A853', '#C0C0C0'],
@@ -316,7 +316,7 @@ function initProductDetail() {
   const productId = params.get('id') || products[0].id;
   const product = products.find(p => p.id === productId) || products[0];
 
-  document.title = `${product.name} — SISSI`;
+  document.title = `${product.name} — Storefront`;
 
   const nameEl = document.getElementById('product-name');
   const priceEl = document.getElementById('product-price');

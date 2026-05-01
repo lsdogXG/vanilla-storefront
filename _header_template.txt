@@ -17,7 +17,7 @@
         <!-- Center: Logo -->
         <div class="header-center">
           <a href="index.html" class="site-logo">
-            <img src="assets/images/sissi-logo.png" alt="SISSI" class="site-logo-img">
+            <img src="assets/images/brand-logo.png" alt="Storefront" class="site-logo-img">
           </a>
         </div>
         <!-- Right: Currency + Language + Cart + Account -->
@@ -66,7 +66,7 @@
                 <div class="dropdown-col">
                   <h4 class="dropdown-heading" data-i18n="dropdown_by_style">BY STYLE</h4>
                   <ul class="dropdown-links">
-                    <li><a href="index.html" data-i18n="dropdown_ballet_flats">Ballet Flats</a></li>
+                    <li><a href="index.html" data-i18n="dropdown_ballet_flats">Footwear</a></li>
                     <li><a href="#" data-i18n="dropdown_heels">Heels</a></li>
                     <li><a href="#" data-i18n="dropdown_sandals">Sandals</a></li>
                     <li><a href="#" data-i18n="dropdown_boots">Boots</a></li>
@@ -106,7 +106,7 @@
                 <div class="dropdown-col">
                   <h4 class="dropdown-heading" data-i18n="dropdown_curated">CURATED COLLECTIONS</h4>
                   <ul class="dropdown-links">
-                    <li><a href="index.html" class="dropdown-active" data-i18n="dropdown_ballet_collection">The Ultra-Soft Ballet Flats</a></li>
+                    <li><a href="index.html" class="dropdown-active" data-i18n="dropdown_ballet_collection">The Premium Footwear</a></li>
                     <li><a href="#" data-i18n="dropdown_spring_summer">Spring / Summer 2026</a></li>
                     <li><a href="#" data-i18n="dropdown_evening_elegance">Evening Elegance</a></li>
                     <li><a href="#" data-i18n="dropdown_everyday">Everyday Essentials</a></li>
@@ -117,12 +117,12 @@
                   <ul class="dropdown-links">
                     <li><a href="#" data-i18n="dropdown_artisan">Artisan Series</a></li>
                     <li><a href="#" data-i18n="dropdown_travel">Travel Collection</a></li>
-                    <li><a href="#" data-i18n="dropdown_luxe">SISSI Luxe</a></li>
+                    <li><a href="#" data-i18n="dropdown_luxe">Storefront Luxe</a></li>
                   </ul>
                 </div>
                 <div class="dropdown-featured">
                   <img src="assets/generated/new-hero-banner.png" alt="Collection" loading="lazy">
-                  <span data-i18n="dropdown_new_collection">New: Ballet Flats Collection</span>
+                  <span data-i18n="dropdown_new_collection">New: Footwear Collection</span>
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@
           <li class="mobile-has-sub">
             <a href="#" class="mobile-nav-toggle" data-i18n="nav_shoes">SHOES</a>
             <ul class="mobile-sub-links">
-              <li><a href="index.html" data-i18n="dropdown_ballet_flats">Ballet Flats</a></li>
+              <li><a href="index.html" data-i18n="dropdown_ballet_flats">Footwear</a></li>
               <li><a href="#" data-i18n="dropdown_heels">Heels</a></li>
               <li><a href="#" data-i18n="dropdown_sandals">Sandals</a></li>
               <li><a href="#" data-i18n="dropdown_boots">Boots</a></li>
@@ -159,7 +159,7 @@
           <li class="mobile-has-sub">
             <a href="#" class="mobile-nav-toggle" data-i18n="nav_collections">COLLECTIONS</a>
             <ul class="mobile-sub-links">
-              <li><a href="index.html" data-i18n="dropdown_ballet_collection">The Ultra-Soft Ballet Flats</a></li>
+              <li><a href="index.html" data-i18n="dropdown_ballet_collection">The Premium Footwear</a></li>
               <li><a href="#" data-i18n="dropdown_spring_summer">Spring / Summer 2026</a></li>
               <li><a href="#" data-i18n="dropdown_evening_elegance">Evening Elegance</a></li>
               <li><a href="#" data-i18n="dropdown_everyday">Everyday Essentials</a></li>

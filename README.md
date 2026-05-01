@@ -1,22 +1,13 @@
-# SISSI — Ballet Flats Storefront
+# Vanilla Storefront Template
 
-Static HTML/CSS/JS storefront for SISSI, an "ultra-soft ballet flats"
-collection. Pure front-end with a tiny Node.js static file server for local
-preview.
+Static HTML/CSS/JS storefront scaffolding for a small product site, with a
+tiny Node.js static-file server for local preview. Pages cover the typical
+e-commerce surface (home, product, blog, contact, FAQ, shipping/returns,
+privacy).
 
-## Structure
-
-```
-index.html / about.html / product.html / blog.html / contact.html
-faq.html / privacy.html / returns.html / shipping.html
-server.mjs            ← Node.js static-file server (port 8080)
-assets/
-  css/                styles
-  generated/          AI-generated product / hero / collection imagery
-                      (Gemini, see filenames `gemini-*.png`)
-reference/            Design reference screenshots + CSS analysis
-_header_template.txt  Reusable header HTML snippet
-```
+Originally bootstrapped from a real client engagement; brand-specific copy and
+assets have been replaced with neutral placeholders so this can serve as a
+starter template.
 
 ## Run
 
@@ -28,13 +19,27 @@ node server.mjs
 No `package.json` — runs on plain Node.js (≥18 recommended for `node:` URL
 imports).
 
+## Structure
+
+```
+index.html / about.html / product.html / blog.html / contact.html
+faq.html / privacy.html / returns.html / shipping.html
+server.mjs            Static-file server (port 8080)
+_header_template.txt  Reusable header HTML snippet
+assets/
+  css/                Stylesheets
+  js/                 app.js + i18n.js (vanilla)
+  images/             Logo + product placeholders
+  generated/          AI-generated hero / collection imagery (Gemini)
+reference/            Design reference screenshots + CSS analysis
+```
+
 ## Notes
 
-- Product photography in `assets/generated/` was produced with Gemini and is
-  used as filler / mockup imagery — not real product shots.
-- Layout takes inspiration from a few existing ballet-flat brand sites
-  (LondonRag, etc.); see `reference/01-header-hero.png` and
-  `reference/02-product-grid.png` for the visual reference set.
+- All product photography in `assets/generated/` was produced with Gemini and
+  is illustrative / placeholder.
+- `i18n.js` carries the user-facing copy as keyed strings; replace those
+  values to re-skin the site for a different brand.
 
 ## License
 
