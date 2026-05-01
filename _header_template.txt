@@ -17,7 +17,6 @@
         <!-- Center: Logo -->
         <div class="header-center">
           <a href="index.html" class="site-logo">
-            <img src="assets/images/brand-logo.png" alt="Storefront" class="site-logo-img">
           </a>
         </div>
         <!-- Right: Currency + Language + Cart + Account -->
@@ -93,7 +92,6 @@
                   </ul>
                 </div>
                 <div class="dropdown-featured">
-                  <img src="assets/generated/new-collection-cover.png" alt="Featured" loading="lazy">
                   <span data-i18n="dropdown_featured_text">Explore Our Bestsellers</span>
                 </div>
               </div>
@@ -121,7 +119,6 @@
                   </ul>
                 </div>
                 <div class="dropdown-featured">
-                  <img src="assets/generated/new-hero-banner.png" alt="Collection" loading="lazy">
                   <span data-i18n="dropdown_new_collection">New: Footwear Collection</span>
                 </div>
               </div>
