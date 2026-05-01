@@ -38,6 +38,10 @@ reference/            Design reference screenshots + CSS analysis
 
 - All product photography in `assets/generated/` was produced with Gemini and
   is illustrative / placeholder.
+- All bundled imagery (logo, hero/collection banners, design references)
+  has been removed; HTML/CSS still references the original paths under
+  `assets/images/` and `assets/generated/` — drop your own images at those
+  paths or rewrite the references.
 - `i18n.js` carries the user-facing copy as keyed strings; replace those
   values to re-skin the site for a different brand.
 
