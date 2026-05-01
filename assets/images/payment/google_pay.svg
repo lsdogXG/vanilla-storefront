@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 24" width="38" height="24">
+  <rect width="38" height="24" rx="3" fill="#fff" stroke="#e8e8e8"/>
+  <text x="19" y="15" text-anchor="middle" font-family="system-ui,-apple-system,sans-serif" font-size="7" font-weight="500" fill="#5f6368">G Pay</text>
+  <circle cx="9" cy="12" r="2.5" fill="#4285f4"/>
+</svg>

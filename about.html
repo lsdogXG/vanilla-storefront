@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SISSI &mdash; Our Story</title>
+  <meta name="description" content="Learn about SISSI - handcrafted ballet flats from Huizhou, China.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  
+  <div class="announcement-bar">
+    <p data-i18n="announcement">FREE SHIPPING ON ALL ORDERS OVER $50 | USE CODE: SISSI10</p>
+  </div>
+    <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <p data-i18n="announcement">FREE SHIPPING ON ALL ORDERS OVER $50 | USE CODE: SISSI10</p>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <div class="header-upper">
+      <div class="page-width header-flex">
+        <!-- Left: Search Field (like LondonRag) -->
+        <div class="header-left">
+          <!-- Mobile hamburger only -->
+          <button class="header-icon-btn hamburger-btn" id="hamburger-btn" aria-label="Menu">
+            <svg width="24" height="18" viewBox="0 0 24 18" fill="none"><line y1="1" x2="24" y2="1" stroke="currentColor" stroke-width="1.5"/><line y1="9" x2="24" y2="9" stroke="currentColor" stroke-width="1.5"/><line y1="17" x2="24" y2="17" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <!-- Desktop search field -->
+          <a href="#" class="header-search-field" id="search-toggle-btn" aria-label="Search">
+            <svg class="header-search-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
+            <span class="header-search-text" data-i18n="search_placeholder">Search...</span>
+          </a>
+        </div>
+        <!-- Center: Logo -->
+        <div class="header-center">
+          <a href="index.html" class="site-logo">
+            <img src="assets/images/sissi-logo.png" alt="SISSI" class="site-logo-img">
+          </a>
+        </div>
+        <!-- Right: Currency + Language + Cart + Account -->
+        <div class="header-right">
+          <!-- Currency Selector -->
+          <div class="currency-switcher">
+            <button class="currency-btn" id="currency-btn">
+              <span class="currency-text">(USD $)</span>
+              <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.2"/></svg>
+            </button>
+          </div>
+          <!-- Language Selector (dropdown style) -->
+          <div class="lang-switcher-dropdown">
+            <button class="lang-dropdown-btn" id="lang-dropdown-btn">
+              <span class="lang-current" data-i18n="lang_current">English</span>
+            </button>
+            <div class="lang-dropdown-menu" id="lang-dropdown-menu">
+              <button class="lang-option active" data-lang="en">English</button>
+              <button class="lang-option" data-lang="es">Spanish</button>
+              <button class="lang-option" data-lang="ar">Arabic</button>
+            </div>
+          </div>
+          <!-- Cart (icon only, like LondonRag) -->
+          <a href="#" class="header-action-link cart-btn" id="cart-toggle-btn" aria-label="Cart">
+            <svg viewBox="0 0 64 64" fill="none"><g stroke="currentColor" stroke-width="2"><path d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20"/><path d="M14.74 18h36.51l3.59 36.73h-43.7z"/></g></svg>
+            <span class="cart-count" data-count="0">0</span>
+          </a>
+          <!-- Account (icon only, like LondonRag) -->
+          <a href="#" class="header-action-link account-btn" id="account-toggle-btn" aria-label="Log in">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><path d="M35 39.84v-2.53c3.3-1.91 6-6.66 6-11.41 0-7.63 0-13.82-9-13.82s-9 6.19-9 13.82c0 4.75 2.7 9.51 6 11.41v2.53c-10.18.85-18 6-18 12.16h42c0-6.19-7.82-11.31-18-12.16Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Nav with Dropdowns -->
+    <nav class="header-nav" id="header-nav">
+      <div class="page-width">
+        <ul class="nav-links">
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-i18n="nav_new">NEW ARRIVALS</a>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link" data-i18n="nav_shoes">SHOES</a>
+            <div class="nav-dropdown">
+              <div class="nav-dropdown-inner">
+                <div class="dropdown-col">
+                  <h4 class="dropdown-heading" data-i18n="dropdown_by_style">BY STYLE</h4>
+                  <ul class="dropdown-links">
+                    <li><a href="index.html" data-i18n="dropdown_ballet_flats">Ballet Flats</a></li>
+                    <li><a href="#" data-i18n="dropdown_heels">Heels</a></li>
+                    <li><a href="#" data-i18n="dropdown_sandals">Sandals</a></li>
+                    <li><a href="#" data-i18n="dropdown_boots">Boots</a></li>
+                    <li><a href="#" data-i18n="dropdown_loafers">Loafers</a></li>
+                    <li><a href="#" data-i18n="dropdown_sneakers">Sneakers</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-col">
+                  <h4 class="dropdown-heading" data-i18n="dropdown_by_occasion">BY OCCASION</h4>
+                  <ul class="dropdown-links">
+                    <li><a href="#" data-i18n="dropdown_work">Work & Office</a></li>
+                    <li><a href="#" data-i18n="dropdown_evening">Evening & Party</a></li>
+                    <li><a href="#" data-i18n="dropdown_casual">Casual & Weekend</a></li>
+                    <li><a href="#" data-i18n="dropdown_wedding">Wedding & Bridal</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-col">
+                  <h4 class="dropdown-heading" data-i18n="dropdown_by_material">BY MATERIAL</h4>
+                  <ul class="dropdown-links">
+                    <li><a href="#" data-i18n="dropdown_leather">Leather</a></li>
+                    <li><a href="#" data-i18n="dropdown_suede">Suede</a></li>
+                    <li><a href="#" data-i18n="dropdown_satin">Satin & Silk</a></li>
+                    <li><a href="#" data-i18n="dropdown_metallic_mat">Metallic</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-featured">
+                  <img src="assets/generated/new-collection-cover.png" alt="Featured" loading="lazy">
+                  <span data-i18n="dropdown_featured_text">Explore Our Bestsellers</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="#" class="nav-link" data-i18n="nav_collections">COLLECTIONS</a>
+            <div class="nav-dropdown">
+              <div class="nav-dropdown-inner">
+                <div class="dropdown-col">
+                  <h4 class="dropdown-heading" data-i18n="dropdown_curated">CURATED COLLECTIONS</h4>
+                  <ul class="dropdown-links">
+                    <li><a href="index.html"  data-i18n="dropdown_ballet_collection">The Ultra-Soft Ballet Flats</a></li>
+                    <li><a href="#" data-i18n="dropdown_spring_summer">Spring / Summer 2026</a></li>
+                    <li><a href="#" data-i18n="dropdown_evening_elegance">Evening Elegance</a></li>
+                    <li><a href="#" data-i18n="dropdown_everyday">Everyday Essentials</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-col">
+                  <h4 class="dropdown-heading" data-i18n="dropdown_signature">SIGNATURE LINES</h4>
+                  <ul class="dropdown-links">
+                    <li><a href="#" data-i18n="dropdown_artisan">Artisan Series</a></li>
+                    <li><a href="#" data-i18n="dropdown_travel">Travel Collection</a></li>
+                    <li><a href="#" data-i18n="dropdown_luxe">SISSI Luxe</a></li>
+                  </ul>
+                </div>
+                <div class="dropdown-featured">
+                  <img src="assets/generated/new-hero-banner.png" alt="Collection" loading="lazy">
+                  <span data-i18n="dropdown_new_collection">New: Ballet Flats Collection</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link" data-i18n="nav_sale">SALE</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link active" data-i18n="nav_about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" data-i18n="nav_contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay">
+      <div class="mobile-nav">
+        <button class="mobile-nav-close" id="mobile-nav-close">¡Á</button>
+        <ul class="mobile-nav-links">
+          <li><a href="#" data-i18n="nav_new">NEW ARRIVALS</a></li>
+          <li class="mobile-has-sub">
+            <a href="#" class="mobile-nav-toggle" data-i18n="nav_shoes">SHOES</a>
+            <ul class="mobile-sub-links">
+              <li><a href="index.html" data-i18n="dropdown_ballet_flats">Ballet Flats</a></li>
+              <li><a href="#" data-i18n="dropdown_heels">Heels</a></li>
+              <li><a href="#" data-i18n="dropdown_sandals">Sandals</a></li>
+              <li><a href="#" data-i18n="dropdown_boots">Boots</a></li>
+              <li><a href="#" data-i18n="dropdown_loafers">Loafers</a></li>
+              <li><a href="#" data-i18n="dropdown_sneakers">Sneakers</a></li>
+            </ul>
+          </li>
+          <li class="mobile-has-sub">
+            <a href="#" class="mobile-nav-toggle" data-i18n="nav_collections">COLLECTIONS</a>
+            <ul class="mobile-sub-links">
+              <li><a href="index.html" data-i18n="dropdown_ballet_collection">The Ultra-Soft Ballet Flats</a></li>
+              <li><a href="#" data-i18n="dropdown_spring_summer">Spring / Summer 2026</a></li>
+              <li><a href="#" data-i18n="dropdown_evening_elegance">Evening Elegance</a></li>
+              <li><a href="#" data-i18n="dropdown_everyday">Everyday Essentials</a></li>
+            </ul>
+          </li>
+          <li><a href="#" data-i18n="nav_sale">SALE</a></li>
+          <li><a href="about.html" class="active" data-i18n="nav_about">ABOUT</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">CONTACT</a></li>
+        </ul>
+        <!-- Mobile Language Switcher -->
+        <div class="mobile-lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="es">ES</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="content-page">
+    <div class="page-width">
+      <nav class="breadcrumb"><a href="index.html">Home</a><span class="breadcrumb-sep">/</span><span>About Us</span></nav>
+      
+  <div class="page-hero-banner">
+    <img src="assets/generated/new-brand-atmosphere.png" alt="SISSI Boutique" class="page-hero-img">
+    <div class="page-hero-overlay"><h1>OUR STORY</h1></div>
+  </div>
+
+  <div class="content-section">
+    <div class="content-two-col">
+      <div class="content-text">
+        <h2>BORN FROM A PASSION FOR CRAFT</h2>
+        <p>SISSI was founded with a singular vision: to create ballet flats that honor the tradition of European craftsmanship while embracing the comfort demands of modern women. Based in Huizhou, China &mdash; a city renowned for its footwear manufacturing heritage &mdash; we bring together decades of artisanal expertise with innovative design.</p>
+        <p>Every pair of SISSI ballet flats begins as a sketch, inspired by the elegance of classic European fashion and the vibrant energy of contemporary style. Our designers travel between Milan, Paris, and our atelier in Huizhou, drawing inspiration from fashion capitals and translating it into footwear that tells a story.</p>
+      </div>
+      <div class="content-image">
+        <img src="assets/generated/new-collection-cover.png" alt="SISSI Craftsmanship" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="content-section content-section--alt">
+    <h2 class="section-title">OUR VALUES</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 4l4.5 9.1 10 1.5-7.3 7.1 1.7 10-8.9-4.7L11.1 31.6l1.7-10L5.5 14.6l10-1.5L20 4z" stroke="#c4956a" stroke-width="1.5" fill="none"/></svg></div>
+        <h3>ARTISAN QUALITY</h3>
+        <p>Each pair passes through 80+ quality checkpoints. Our artisans hand-finish every detail, from stitching to sole attachment, ensuring perfection in every step.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="#c4956a" stroke-width="1.5"/><path d="M14 20l4 4 8-8" stroke="#c4956a" stroke-width="1.5" fill="none"/></svg></div>
+        <h3>PREMIUM MATERIALS</h3>
+        <p>We source only the finest leathers and textiles &mdash; from Italian Nappa leather to Japanese metallic fabrics. Our cushioned insoles use memory foam for cloud-like comfort.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 6v28M6 20h28" stroke="#c4956a" stroke-width="1.5"/><circle cx="20" cy="20" r="14" stroke="#c4956a" stroke-width="1.5"/></svg></div>
+        <h3>SUSTAINABLE PRACTICE</h3>
+        <p>We are committed to responsible manufacturing. Our packaging uses recycled materials, and we partner with suppliers who share our environmental values.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><svg width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M20 8c-6 0-14 7-14 14 0 4 2 7 5 9h18c3-2 5-5 5-9 0-7-8-14-14-14z" stroke="#c4956a" stroke-width="1.5" fill="none"/><path d="M16 22l4 4 4-4" stroke="#c4956a" stroke-width="1.5" fill="none"/></svg></div>
+        <h3>DESIGNED FOR WOMEN</h3>
+        <p>Our design team &mdash; predominantly women &mdash; understands what matters: shoes that look stunning and feel incredible from the first step to the thousandth.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-section">
+    <h2 class="section-title">OUR JOURNEY</h2>
+    <div class="timeline">
+      <div class="timeline-item"><span class="timeline-year">2018</span><p>SISSI founded in Huizhou, China with a team of 12 artisans</p></div>
+      <div class="timeline-item"><span class="timeline-year">2019</span><p>First collection launched &mdash; 5 styles, handcrafted ballet flats</p></div>
+      <div class="timeline-item"><span class="timeline-year">2020</span><p>Expanded to 50+ styles, entered European and Middle Eastern markets</p></div>
+      <div class="timeline-item"><span class="timeline-year">2022</span><p>Opened dedicated design studio in collaboration with Italian designers</p></div>
+      <div class="timeline-item"><span class="timeline-year">2024</span><p>Launched The Ultra-Soft Collection &mdash; our most comfortable range ever</p></div>
+      <div class="timeline-item"><span class="timeline-year">2026</span><p>Serving customers in 30+ countries with a growing community of ballet flat lovers</p></div>
+    </div>
+  </div>
+
+    </div>
+  </main>
+  
+  <!-- Footer (London Rag style) -->
+  <footer class="site-footer">
+        <div class="page-width footer-payment-icons">
+      <img src="assets/images/payment/amex.svg" alt="Amex" height="24">
+      <img src="assets/images/payment/apple_pay.svg" alt="Apple Pay" height="24">
+      <img src="assets/images/payment/google_pay.svg" alt="Google Pay" height="24">
+      <img src="assets/images/payment/mastercard.svg" alt="Mastercard" height="24">
+      <img src="assets/images/payment/paypal.svg" alt="PayPal" height="24">
+      <img src="assets/images/payment/shop_pay.svg" alt="Shop Pay" height="24">
+      <img src="assets/images/payment/visa.svg" alt="Visa" height="24">
+    </div>
+    <div class="page-width footer-grid">
+      <!-- Col 1: About -->
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footer_about">About Us</h4>
+        <p class="footer-about-text" data-i18n="footer_about_text">Inspired by timeless European elegance, SISSI is your destination for artisan-crafted ballet flats and fine footwear. Each pair is meticulously handcrafted using premium leather, cushioned insoles, and exquisite detailing &mdash; from sparkling rhinestones to hand-set gemstones. Delivering supreme comfort and style, straight to you worldwide.</p>
+      </div>
+      <!-- Col 2: Information -->
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footer_info">Information</h4>
+        <ul class="footer-links">
+          <li><a href="about.html" data-i18n="footer_story">Our Story</a></li>
+          <li><a href="about.html" data-i18n="footer_quality">Quality &amp; Craft</a></li>
+          <li><a href="about.html" data-i18n="footer_press">Featured On</a></li>
+          <li><a href="blog.html" data-i18n="footer_blog">Blog</a></li>
+        </ul>
+      </div>
+      <!-- Col 3: Let Us Help You -->
+      <div class="footer-col">
+        <h4 class="footer-heading" data-i18n="footer_help">Let Us Help You</h4>
+        <ul class="footer-links">
+          <li><a href="contact.html" data-i18n="footer_contact_us">Contact Us</a></li>
+          <li><a href="shipping.html" data-i18n="footer_shipping">Shipping Info</a></li>
+          <li><a href="returns.html" data-i18n="footer_returns">Return &amp; Refund Policy</a></li>
+          <li><a href="faq.html" data-i18n="footer_faq">FAQ</a></li>
+          <li><a href="privacy.html" data-i18n="footer_privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- Col 4: Newsletter + Social -->
+      <div class="footer-col">
+        <h4 class="footer-heading footer-heading--sm" data-i18n="footer_newsletter_title">Sign up for discounts + updates</h4>
+        <div class="footer-newsletter">
+          <input type="email" class="footer-email-input" placeholder="Enter your email" data-i18n-placeholder="footer_email_placeholder">
+          <button type="button" class="footer-subscribe-btn" data-i18n="footer_subscribe">Subscribe</button>
+        </div>
+        <p class="footer-disclaimer" data-i18n="footer_disclaimer">By signing up for email, you agree to SISSI's Terms of Service and Privacy Policy.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="#" aria-label="Pinterest"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641 0 12.017 0z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom Bar -->
+        <div class="footer-bottom">
+      <div class="page-width footer-bottom-inner">
+        <div class="footer-bottom-left">
+          <span class="footer-currency">(USD $)</span>
+        </div>
+        <div class="footer-bottom-right">
+          <span class="footer-copyright">&copy; 2026 SISSI International - All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="https://wa.me/85270955410" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  
+  <script src="assets/js/i18n.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const header = document.getElementById('site-header');
+      window.addEventListener('scroll', () => header.classList.toggle('is-sticky', window.scrollY > 10));
+      document.getElementById('hamburger-btn').addEventListener('click', () => { document.getElementById('mobile-nav-overlay').classList.add('open'); document.body.style.overflow='hidden'; });
+      document.getElementById('mobile-nav-close').addEventListener('click', () => { document.getElementById('mobile-nav-overlay').classList.remove('open'); document.body.style.overflow=''; });
+      document.getElementById('mobile-nav-overlay').addEventListener('click', e => { if(e.target===e.currentTarget){e.currentTarget.classList.remove('open');document.body.style.overflow='';} });
+    });
+  </script>
+</body>
+</html>
